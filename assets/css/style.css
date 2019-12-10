@@ -28,9 +28,9 @@ ul li a {
 body {
     background-image: url(/assets/images/spikes.png);
 }
-.body {
+.wrapper {
     font-family: 'Courier New', Courier, monospace;
-    width: 1000px;
+    width: 960px;
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
@@ -38,20 +38,20 @@ body {
 
 .header {
     float: left;
-    margin: 0px auto; 
+    margin: 0 0 0 15px; 
     color: #eeeeee;
     background-color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    width: 25%;
+    width: 27%;
 }
 
 nav  {
     width: 750px;
     height: 90px;
-    display: flex;
-    margin: 0 auto;
-    
+    position: absolute;
+    top: -5px;
+    right: 432px;    
 }
 
 .me {
@@ -59,7 +59,7 @@ nav  {
     color: #777777;
     border: 1px black solid;;
     padding: 10px;
-    margin: 0px auto;
+    margin: 15px;
     background-color:#ffffff 
     
 }
@@ -67,7 +67,7 @@ nav  {
 .footer {
     background-color: #666666;
     float: left;
-    margin: 0px auto;
+    margin: 0 0 0 15px;
     width: 1000px;
     border-top: 10px solid #4aaaa5;
 }
