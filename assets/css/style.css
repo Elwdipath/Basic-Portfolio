@@ -5,25 +5,35 @@
 }
 
 ul {
+    text-align: right;
 
 }
 
 ul li {
     list-style: none;
     display: inline-block;
+    line-height: 100px;
+    text-align: right;
 }
 
 ul li a {
     text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1e1e;
+    padding: 0 10px;
     
 }
 
+body {
+    background-image: url(/assets/images/spikes.png);
+}
 .body {
     font-family: 'Courier New', Courier, monospace;
     width: 1000px;
-    margin: 5px auto;
+    margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding: 0;
 }
 
 .header {
@@ -33,11 +43,15 @@ ul li a {
     background-color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
+    width: 25%;
 }
 
-.links  {
-    float: right;
+nav  {
+    width: 750px;
+    height: 90px;
+    display: flex;
     margin: 0 auto;
+    
 }
 
 .me {
@@ -55,4 +69,5 @@ ul li a {
     float: left;
     margin: 0px auto;
     width: 1000px;
+    border-top: 10px solid #4aaaa5;
 }
