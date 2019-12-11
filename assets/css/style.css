@@ -6,8 +6,8 @@
 
 html, body {
     height: 100%;
-    min-height: 100%
-    
+    min-height: 100%;
+    background-image: url("../images/spikes.png");
 }
 
 ul {
@@ -39,6 +39,7 @@ ul li a {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     min-height: 100%;
+    
 }
 
 .headercont {
@@ -48,8 +49,12 @@ ul li a {
     background-color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    /* width: 960px; */
+    border-radius: 25px;
 }
+/* round out edges of name borders */
+/* #name {
+    border: 1px solid black;
+    border-radius: 25px; */
 
 nav  {
     width: 100%;
@@ -66,6 +71,7 @@ main {
     float: left;  
     color: #777777;
     border: 1px black solid;
+    border-radius: 25px;
     padding: 10px; 
     margin: 15px 15px 15px 0;
     background-color:#ffffff;
@@ -81,6 +87,6 @@ footer {
     clear: both;
     width: 100; 
     border-top: 10px solid #4aaaa5;
-    text-align: center
+    text-align: center;
     bottom: 0;
 }
