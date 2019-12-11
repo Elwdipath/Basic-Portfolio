@@ -38,6 +38,7 @@ ul li a {
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
+    min-height: 100%;
 }
 
 .headercont {
@@ -68,8 +69,11 @@ main {
     padding: 10px; 
     margin: 15px 15px 15px 0;
     background-color:#ffffff;
+}
 
-    
+#profilephoto {
+    width: 50px;
+    height: 50px;
 }
 
 footer {
