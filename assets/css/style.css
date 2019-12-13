@@ -45,11 +45,12 @@ ul li a {
 .headercont {
     float: left;
     margin: 15px 15px 0px 0;
-    color: #eeeeee;
-    background-color:#4aaaa5;
+    /* color: #eeeeee; */
+    background-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    /* position: relative; */
 }
 
 nav  {
@@ -61,6 +62,9 @@ nav  {
     float: right;
 }
 
+#name {
+    background-color: teal;
+}
 main {
     max-width: 960px;
     float: left;  
