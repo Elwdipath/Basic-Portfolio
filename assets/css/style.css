@@ -139,6 +139,24 @@ form {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-  /* .contentcont {
-    /* FORMAT 
-  } */
+  .contentcont {
+
+  }
+  .images {
+      position: relative;
+      width: 100%;
+
+  }
+
+  .imagetitle {
+        /* width: 203px; */
+        background-color: #4aaaa5;
+        /* height: 25px; */
+        position: absolute;
+        /* padding: 8px; */
+        top: 71%;
+        left: 3%;
+        width: 200px;
+        text-align: center;
+    }
+  }
