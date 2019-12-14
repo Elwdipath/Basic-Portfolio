@@ -34,12 +34,13 @@ ul li a {
 
 .wrapper {
     font-family: 'Courier New', Courier, monospace;
-    width: 960px;
+    width: 100%;
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    min-height: 100%;
+    height: 75px;
     position: relative;
+    background-color: white;
     
 }
 
@@ -57,15 +58,19 @@ ul li a {
 
 nav  {
     width: 100%;
-    height: 77px;
+    height: 63px;
     position: absolute;
     top: 12px;
     right: 20px;  
     float: right;
+    margin-right: 30%;
+    border-bottom: 1px solid lightgray;
 }
 
 #name {
     background-color: teal;
+    margin-left: 30%;
+    position: absolute;
 }
 main {
     max-width: 960px;
@@ -74,7 +79,9 @@ main {
     border: 1px black solid;
     border-radius: 25px;
     padding: 10px; 
-    margin: 2px 15px 15px 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
     background-color:#ffffff;
 }
 
@@ -103,4 +110,7 @@ footer {
 
 .mainp {
     background-color: white
+}
+.clear  {
+    clear: both;
 }
